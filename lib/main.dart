@@ -87,11 +87,11 @@ class MyHomePage extends StatelessWidget {
     } else if (age <= 19) {
       return Colors.lightGreen;
     } else if (age <= 30) {
-      return Colors.lightYellow;
+      return Colors.yellowAccent;
     } else if (age <= 50) {
       return Colors.orange;
     } else {
-      return Colors.lightGray;
+      return Colors.grey[300];
     }
   }
 
